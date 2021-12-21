@@ -1,0 +1,200 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100&family=Pushster&display=swap');
+
+body {
+    background: linear-gradient(90deg, rgb(243, 243, 243) 24%, rgb(255, 255, 255) 100%);
+    font-family: 'Public Sans', sans-serif;
+}
+
+
+.half {
+    width: 29%;
+    float: left;
+    margin-bottom: 160px;
+}
+
+a {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 40px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    color: #087f5b;
+}
+
+li {
+    margin-top: 100px;
+    padding: 30px;
+    list-style-type: disclosure-closed;
+}
+
+.mainP {
+    color: rgb(37, 37, 37);
+    font-size: 30px;
+    padding: 20px;
+    margin-top: 36px;
+    font-weight: 700;
+}
+
+.mainTitle {
+    font-family: 'Pushster', cursive;
+    color: #087f5b;
+    font-size: 60px;
+    text-align: center;
+    cursor: default;
+    transition: all 0.9s linear;
+}
+.mainTitle:hover {
+    color: rgb(0, 0, 0);
+}
+.navLinks {
+    color: #087f5b;
+}
+
+
+
+/* Early life and education page */
+
+.lifeT {
+    text-align: center;
+    font-size: 60px;
+    cursor: default;
+    transition: all 0.9s linear;
+    font-family: 'Pushster', cursive;
+}
+
+.lifeT:hover {
+    color: #087f5b;
+}
+
+.earlyL {
+    color: #087f5b;
+    font-size: 35px;
+    margin-top: 100px;
+    cursor: default;
+    transition: all 0.6s linear;
+}
+.earlyL:hover {
+    font-size: 40px;
+}
+
+.lifeP {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.bottom1 {
+    margin-bottom: 750px;
+}
+.studies {
+    color: #087f5b;
+    transition: all 0.6s linear;
+    cursor: default;
+    font-size: 30px;
+}
+.studies:hover {
+    font-size: 34px;
+}
+
+
+/* Pupin Coils Page */
+
+.pCoils {
+    font-size: 30px;
+    margin-top: 100px;
+    padding: 20px;
+    font-weight: 700;
+}
+
+
+  
+
+
+.work {
+      margin-top: 5%;
+      font-size: 1.5rem;
+      width: 92%;
+      font-weight: 700;
+}
+.work1 {
+      font-size: 40px;
+      width: 92%;
+      font-weight: 400;
+      color: #087f5b;
+}
+
+mark {
+    background-color: #087f5b8f;
+    color: rgb(255, 255, 255);
+}
+
+
+/* Literary Page  */
+
+.titleTable {
+    background-color: rgba(0, 0, 0, 0.876);
+    color: #fff;
+    height: 45px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+table {
+    width: 65%;
+    border-right-color: #ffffff;
+    font-size: 18px;
+    /* /* border: 1px solid #343a40; */
+    border-collapse: collapse; 
+    float: left;
+}
+  
+th, td {
+    /* border: 1px solid #343a40; */
+    padding: 16px 24px;
+    text-align: left;
+}
+
+th {
+    background-color: #087f5b;
+    color: #fff;
+    width: 25%;
+}
+
+tbody tr:nth-child(odd){
+    background-color: #f8f9fa;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #087f5bbf;
+    color: #fff;
+}
+
+
+/* RESPONSIVE for laptop */
+
+/* early life  */
+@media only screen and (max-width: 1500px) {
+    .half {
+        width: 29%;
+        float: left;
+        margin-bottom: 800px;
+    }
+  }
+@media only screen and (min-width: 1501px) {
+    .half {
+        width: 29%;
+        float: left;
+        margin-bottom: 420px;
+    }
+  }
+@media only screen and (min-width: 1920) {
+    .half {
+        width: 29%;
+        float: left;
+        margin-bottom: 296px;
+    }
+  }
